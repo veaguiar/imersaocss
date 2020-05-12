@@ -1,0 +1,30 @@
+body {
+    background-image: url("../image/grey-background.jpg");
+    background-size: 100% 100%;
+    font-family: Arial;
+    height: 100vh;
+}
+
+.menu {
+    border-radius: 5px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.site-title,
+.site-subtitle {
+    color: grey;
+    text-align: center;
+}
